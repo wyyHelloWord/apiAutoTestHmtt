@@ -1,0 +1,618 @@
+2022-05-02 12:40:40,444 INFO [get_log.py(<module>:35)] - a hahahaha
+2022-05-02 13:44:19,067 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[(13812345678, 246810)]
+2022-05-02 13:47:50,987 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[(13812345678, 246810)]
+2022-05-02 13:47:50,987 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 13:47:51,050 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 13:47:51,050 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 13:47:51,050 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口,请求数据为:{'mobile': 13812345678, 'code': 246810},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 13:47:51,175 ERROR [test01_mp.py(test01_mp_login:28)] - 'NoneType' object has no attribute 'get'
+2022-05-02 13:47:51,722 INFO [api_mp.py(api_mp_article:41)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': 7, 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 13:47:51,785 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 13:47:51,785 ERROR [test01_mp.py(test02_mp_article:41)] - 'int' object is not callable
+2022-05-02 13:53:41,876 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 13:53:41,876 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 13:53:41,892 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 13:54:21,617 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 13:54:21,617 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 13:54:21,617 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 13:56:31,877 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 13:56:31,893 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 13:56:31,893 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 14:03:01,637 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[(13911111111, 246810)]
+2022-05-02 14:03:01,637 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:03:01,637 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 14:03:01,637 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 14:03:01,652 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口,请求数据为:{'mobile': 13911111111, 'code': 246810},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 14:03:01,716 ERROR [test01_mp.py(test01_mp_login:29)] - 'NoneType' object has no attribute 'get'
+2022-05-02 14:03:01,956 INFO [api_mp.py(api_mp_article:41)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': 7, 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 14:03:02,019 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 14:03:02,019 ERROR [test01_mp.py(test02_mp_article:42)] - 
+2022-05-02 14:05:39,697 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 14:05:39,697 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 14:05:39,697 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 14:07:07,899 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 14:07:07,899 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 14:07:07,899 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 14:07:56,791 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 14:07:56,791 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 14:07:56,791 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 14:09:14,192 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[(13911111111, 246810)]
+2022-05-02 14:09:14,192 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:09:14,239 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 14:09:14,239 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 14:09:14,239 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口,请求数据为:{'mobile': 13911111111, 'code': 246810},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 14:09:14,302 ERROR [test01_mp.py(test01_mp_login:29)] - 'NoneType' object has no attribute 'get'
+2022-05-02 14:09:14,552 INFO [api_mp.py(api_mp_article:41)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': 7, 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 14:09:14,614 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 14:09:14,614 ERROR [test01_mp.py(test02_mp_article:42)] - 
+2022-05-02 14:14:14,476 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[(13911111111, 246810)]
+2022-05-02 14:14:14,476 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:14:14,492 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 14:14:14,492 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 14:14:14,492 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口,请求数据为:{'mobile': 13911111111, 'code': 246810},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 14:14:14,836 INFO [api_mp.py(api_mp_article:41)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': 7, 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 14:14:14,899 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 14:14:14,899 ERROR [test01_mp.py(test02_mp_article:44)] - 
+2022-05-02 14:14:23,506 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[(13911111111, 246810)]
+2022-05-02 14:14:23,506 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:14:23,506 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 14:14:23,506 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 14:14:23,506 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口,请求数据为:{'mobile': 13911111111, 'code': 246810},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 14:14:23,787 INFO [api_mp.py(api_mp_article:41)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': 7, 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 14:14:23,850 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 14:14:23,850 ERROR [test01_mp.py(test02_mp_article:44)] - 
+2022-05-02 14:14:39,845 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[(13911111111, 246810)]
+2022-05-02 14:14:39,845 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:14:39,861 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 14:14:39,861 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 14:14:39,861 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口,请求数据为:{'mobile': 13911111111, 'code': 246810},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 14:14:40,126 INFO [api_mp.py(api_mp_article:41)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': 7, 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 14:14:40,189 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 14:14:40,189 ERROR [test01_mp.py(test02_mp_article:44)] - 
+2022-05-02 14:16:16,861 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[(13911111111, 246810)]
+2022-05-02 14:16:16,876 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 14:16:16,876 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 14:16:16,876 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口,请求数据为:{'mobile': 13911111111, 'code': 246810},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 14:17:38,247 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[(13911111111, 246810)]
+2022-05-02 14:17:38,263 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 14:17:38,263 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 14:17:38,263 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口,请求数据为:{'mobile': 13911111111, 'code': 246810},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 14:19:58,082 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 14:19:58,098 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 14:19:58,098 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 14:19:58,098 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 14:20:28,475 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 14:21:38,454 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 14:22:09,472 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 14:22:47,706 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 14:22:47,706 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 14:23:05,948 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 14:23:05,948 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 14:23:20,504 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 14:23:20,504 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 14:23:54,458 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 14:23:54,458 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 14:24:15,702 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[(13911111111, 246810)]
+2022-05-02 14:24:15,702 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[(13911111111, 246810)]
+2022-05-02 14:34:38,475 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:34:38,475 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:34:38,475 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:34:38,490 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:34:38,490 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:34:38,490 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:35:11,373 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:35:11,375 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:35:11,376 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:35:11,377 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:35:11,379 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:35:11,380 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:37:09,818 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:37:09,818 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:37:09,818 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:37:09,818 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:37:09,818 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:37:09,834 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:37:09,834 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:37:09,834 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:37:09,834 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:37:09,834 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:38:27,344 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:38:27,344 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:38:27,359 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:38:27,359 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:38:27,359 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:38:27,359 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:38:27,359 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:38:27,359 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:38:27,359 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:38:27,359 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:41:13,039 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:41:13,039 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:41:13,039 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:41:13,039 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:41:13,039 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:41:13,039 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:41:13,039 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:41:13,039 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:41:13,039 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:41:13,039 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', 7, '数据库')]
+2022-05-02 14:54:08,297 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 14:54:08,297 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 14:54:08,344 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 14:54:08,344 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 14:54:08,344 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 14:54:45,663 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 14:54:45,663 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 14:54:45,663 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 14:54:45,663 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 14:54:45,663 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 14:54:45,757 INFO [tool.py(common_token:13)] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjQwODUsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.2w5mhos0jkRVr4-zoNBDcBCF9bJRRC3o4bgRVn3Gz4U,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjQwODUsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.2w5mhos0jkRVr4-zoNBDcBCF9bJRRC3o4bgRVn3Gz4U'}
+2022-05-02 14:54:45,757 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 14:55:14,550 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 14:55:14,550 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 14:55:14,565 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 14:55:14,565 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 14:55:14,565 INFO [api_mp.py(api_mp_article:41)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 14:55:14,628 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 14:55:14,628 ERROR [test01_mp.py(test02_mp_article:42)] - 
+2022-05-02 15:03:00,723 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 15:03:00,723 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 15:03:00,723 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 15:03:00,723 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 15:03:00,723 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 15:03:00,817 INFO [tool.py(common_token:13)] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjQ1ODAsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.jptL8L7l8JUfRk43MF4iV2_7SC-rH0ziI6dCcOyDdp4,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjQ1ODAsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.jptL8L7l8JUfRk43MF4iV2_7SC-rH0ziI6dCcOyDdp4'}
+2022-05-02 15:03:00,817 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:03:00,817 INFO [api_mp.py(api_mp_article:41)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjQ1ODAsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.jptL8L7l8JUfRk43MF4iV2_7SC-rH0ziI6dCcOyDdp4'}
+2022-05-02 15:03:00,880 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:03:00,880 ERROR [test01_mp.py(test02_mp_article:42)] - 
+2022-05-02 15:04:44,297 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 15:04:44,297 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 15:04:44,297 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 15:04:44,297 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 15:04:44,297 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 15:04:44,378 INFO [tool.py(common_token:13)] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjQ2ODMsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.TQiYFNQz0Sq_8vKmHbgyRB58kkOZVZ--9YLZmFsg5uI,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjQ2ODMsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.TQiYFNQz0Sq_8vKmHbgyRB58kkOZVZ--9YLZmFsg5uI'}
+2022-05-02 15:04:44,378 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:04:44,394 INFO [api_mp.py(api_mp_article:41)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjQ2ODMsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.TQiYFNQz0Sq_8vKmHbgyRB58kkOZVZ--9YLZmFsg5uI'}
+2022-05-02 15:04:44,442 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:04:44,442 ERROR [test01_mp.py(test02_mp_article:44)] - 
+2022-05-02 15:05:18,838 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 15:05:18,838 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 15:05:18,838 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 15:05:18,838 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 15:05:18,854 INFO [api_mp.py(api_mp_article:41)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 15:05:18,932 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:05:18,932 ERROR [test01_mp.py(test02_mp_article:44)] - 
+2022-05-02 15:06:21,657 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 15:06:21,672 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 15:06:21,688 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 15:06:21,688 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 15:06:21,704 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 15:06:21,793 INFO [tool.py(common_token:13)] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjQ3ODEsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.l-0OfYREkBflRAE1waIAmNg2RKNfAvnP_pk1idL-Ijw,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjQ3ODEsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.l-0OfYREkBflRAE1waIAmNg2RKNfAvnP_pk1idL-Ijw'}
+2022-05-02 15:06:21,793 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:06:21,808 INFO [api_mp.py(api_mp_article:41)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjQ3ODEsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.l-0OfYREkBflRAE1waIAmNg2RKNfAvnP_pk1idL-Ijw'}
+2022-05-02 15:06:21,871 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:06:21,871 ERROR [test01_mp.py(test02_mp_article:44)] - 
+2022-05-02 15:07:14,262 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 15:07:14,262 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 15:07:14,278 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 15:07:14,278 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 15:07:14,278 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 15:07:14,340 INFO [tool.py(common_token:13)] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjQ4MzMsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.bUsWlqNTJBAAwomByuIe38ESpoTajbSTSjWsHjcbhTg,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjQ4MzMsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.bUsWlqNTJBAAwomByuIe38ESpoTajbSTSjWsHjcbhTg'}
+2022-05-02 15:07:14,340 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:07:14,387 INFO [api_mp.py(api_mp_article:41)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjQ4MzMsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.bUsWlqNTJBAAwomByuIe38ESpoTajbSTSjWsHjcbhTg'}
+2022-05-02 15:07:14,450 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:07:32,739 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 15:07:32,739 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 15:07:32,754 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 15:07:32,754 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 15:07:32,754 INFO [api_mp.py(api_mp_article:41)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 15:07:32,840 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:19:27,026 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 15:19:27,026 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 15:19:27,041 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 15:19:27,041 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 15:19:27,041 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 15:19:27,120 INFO [tool.py(common_token:13)] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjU1NjYsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.8PB3C3UJN3ZW6norKHMCdq1ClxuUWYRQ__ggnG_v1Jo,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjU1NjYsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.8PB3C3UJN3ZW6norKHMCdq1ClxuUWYRQ__ggnG_v1Jo'}
+2022-05-02 15:19:27,120 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:19:27,167 INFO [api_mp.py(api_mp_article:41)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjU1NjYsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.8PB3C3UJN3ZW6norKHMCdq1ClxuUWYRQ__ggnG_v1Jo'}
+2022-05-02 15:19:27,307 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:22:24,681 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 15:22:24,713 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 15:22:24,759 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 15:22:24,759 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 15:22:24,775 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 15:22:24,885 INFO [tool.py(common_token:13)] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjU3NDQsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.oheABCDEGDjJc25etPiN8TJA0bBGWiYUaz9n_KNl8_E,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjU3NDQsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.oheABCDEGDjJc25etPiN8TJA0bBGWiYUaz9n_KNl8_E'}
+2022-05-02 15:22:24,900 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:22:24,916 INFO [api_mp.py(api_mp_article:41)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjU3NDQsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.oheABCDEGDjJc25etPiN8TJA0bBGWiYUaz9n_KNl8_E'}
+2022-05-02 15:22:25,015 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:23:35,548 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 15:23:35,548 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 15:23:35,564 INFO [api_mp.py(__init__:12)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 15:23:35,564 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 15:23:35,564 INFO [api_mp.py(api_mp_login:26)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 15:23:35,642 INFO [tool.py(common_token:13)] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjU4MTUsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.POSitZ7Q8UvWY-7qEHZxMn0GMb8MUZKvqHKp706CmvM,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjU4MTUsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.POSitZ7Q8UvWY-7qEHZxMn0GMb8MUZKvqHKp706CmvM'}
+2022-05-02 15:23:35,642 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:23:35,689 INFO [api_mp.py(api_mp_article:41)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjU4MTUsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.POSitZ7Q8UvWY-7qEHZxMn0GMb8MUZKvqHKp706CmvM'}
+2022-05-02 15:23:35,798 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:38:45,686 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 15:38:45,686 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 15:38:45,702 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 15:38:45,702 INFO [api_mp.py(__init__:21)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 15:38:45,702 INFO [api_mp.py(api_mp_login:33)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 15:38:45,811 INFO [tool.py(common_token:13)] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjY3MjUsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.zYLmym8cy6UPq4YGChYZgm73Ng6vF-BAFP8PRghXwFs,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjY3MjUsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.zYLmym8cy6UPq4YGChYZgm73Ng6vF-BAFP8PRghXwFs'}
+2022-05-02 15:38:45,811 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:38:45,843 INFO [api_mp.py(api_mp_article:48)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjY3MjUsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.zYLmym8cy6UPq4YGChYZgm73Ng6vF-BAFP8PRghXwFs'}
+2022-05-02 15:38:45,933 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:39:25,897 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 15:39:25,897 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 15:39:25,913 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 15:39:25,913 INFO [api_mp.py(__init__:21)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 15:39:25,913 INFO [api_mp.py(api_mp_article:48)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 15:39:53,382 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 15:39:53,382 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 15:39:53,382 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 15:39:53,382 INFO [api_mp.py(__init__:21)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 15:39:53,382 INFO [api_mp.py(api_mp_article:48)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 15:40:05,609 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 15:40:05,609 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 15:40:05,625 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 15:40:05,625 INFO [api_mp.py(__init__:21)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 15:40:05,625 INFO [api_mp.py(api_mp_login:33)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 15:40:05,703 INFO [tool.py(common_token:13)] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjY4MDUsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.6T4Qed9miVBzeCOIrLNhX1-8mOvI-yiK0ge_HSx0hug,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjY4MDUsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.6T4Qed9miVBzeCOIrLNhX1-8mOvI-yiK0ge_HSx0hug'}
+2022-05-02 15:40:05,703 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:40:05,703 INFO [api_mp.py(api_mp_article:48)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjY4MDUsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.6T4Qed9miVBzeCOIrLNhX1-8mOvI-yiK0ge_HSx0hug'}
+2022-05-02 15:40:05,797 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:43:23,744 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 15:43:23,744 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 15:43:23,760 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 15:43:23,760 INFO [api_mp.py(__init__:21)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 15:43:23,760 INFO [api_mp.py(api_mp_login:33)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 15:43:23,854 INFO [tool.py(common_token:13)] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjcwMDMsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.YxAjUIoLfPmZ2B3B39KOLQg92C7aN6M9gCjCDdVYSVs,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjcwMDMsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.YxAjUIoLfPmZ2B3B39KOLQg92C7aN6M9gCjCDdVYSVs'}
+2022-05-02 15:43:23,854 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:43:23,854 INFO [api_mp.py(api_mp_article:48)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjcwMDMsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.YxAjUIoLfPmZ2B3B39KOLQg92C7aN6M9gCjCDdVYSVs'}
+2022-05-02 15:43:23,947 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:49:38,718 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 15:49:38,718 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 15:49:38,734 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 15:49:38,734 INFO [api_mp.py(__init__:21)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 15:49:38,734 INFO [api_mp.py(api_mp_login:33)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 15:49:38,812 INFO [tool.py(common_token:13)] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjczNzgsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.TYYx83n3aSg_wpocmdLi2J3gbzNmzSPrnuE9aYJ5Epc,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjczNzgsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.TYYx83n3aSg_wpocmdLi2J3gbzNmzSPrnuE9aYJ5Epc'}
+2022-05-02 15:49:38,812 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:49:38,844 INFO [api_mp.py(api_mp_article:48)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjczNzgsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.TYYx83n3aSg_wpocmdLi2J3gbzNmzSPrnuE9aYJ5Epc'}
+2022-05-02 15:50:08,598 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 15:50:08,598 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 15:50:08,614 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 15:50:08,614 INFO [api_mp.py(__init__:21)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 15:50:08,614 INFO [api_mp.py(api_mp_login:33)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 15:50:08,708 INFO [tool.py(common_token:13)] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjc0MDgsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.7LuLOyXeSymRKRyQrkilroZMho7a3etF5HkjfiMkzQo,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjc0MDgsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.7LuLOyXeSymRKRyQrkilroZMho7a3etF5HkjfiMkzQo'}
+2022-05-02 15:50:08,708 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:50:08,723 INFO [api_mp.py(api_mp_article:48)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjc0MDgsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.7LuLOyXeSymRKRyQrkilroZMho7a3etF5HkjfiMkzQo'}
+2022-05-02 15:50:08,911 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:52:24,334 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 15:52:24,334 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 15:52:24,349 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 15:52:24,349 INFO [api_mp.py(__init__:21)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 15:52:24,349 INFO [api_mp.py(api_mp_login:33)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 15:52:24,428 INFO [tool.py(common_token:13)] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjc1NDMsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.Ysb_5Ru-s_pHLeJ2RhxDwouTvkGiMXX6jch_NUq7ZUc,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjc1NDMsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.Ysb_5Ru-s_pHLeJ2RhxDwouTvkGiMXX6jch_NUq7ZUc'}
+2022-05-02 15:52:24,428 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:52:24,474 INFO [api_mp.py(api_mp_article:48)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjc1NDMsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.Ysb_5Ru-s_pHLeJ2RhxDwouTvkGiMXX6jch_NUq7ZUc'}
+2022-05-02 15:53:45,021 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 15:53:45,021 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 15:53:45,037 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 15:53:45,037 INFO [api_mp.py(__init__:21)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/channels
+2022-05-02 15:53:45,037 INFO [api_mp.py(api_mp_login:33)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 15:53:45,099 INFO [tool.py(common_token:13)] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjc2MjQsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.h8IP2vfPzA_B3F_8Z99NPbyWQ9DPy5K2AEklzvZ9WJc,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjc2MjQsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.h8IP2vfPzA_B3F_8Z99NPbyWQ9DPy5K2AEklzvZ9WJc'}
+2022-05-02 15:53:45,115 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:53:45,130 INFO [api_mp.py(api_mp_article:48)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjc2MjQsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.h8IP2vfPzA_B3F_8Z99NPbyWQ9DPy5K2AEklzvZ9WJc'}
+2022-05-02 15:53:45,193 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:56:20,308 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 15:56:20,308 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 15:56:20,324 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 15:56:20,324 INFO [api_mp.py(__init__:22)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 15:56:20,324 INFO [api_mp.py(api_mp_login:34)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 15:56:20,386 INFO [tool.py(common_token:13)] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjc3NzksInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.5dqUuqP_dzsDofaqMtYGmq7GFI6E6fRjGPkWK2LT__8,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjc3NzksInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.5dqUuqP_dzsDofaqMtYGmq7GFI6E6fRjGPkWK2LT__8'}
+2022-05-02 15:56:20,386 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 15:56:20,418 INFO [api_mp.py(api_mp_article:49)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjc3NzksInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.5dqUuqP_dzsDofaqMtYGmq7GFI6E6fRjGPkWK2LT__8'}
+2022-05-02 15:56:20,496 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 16:01:40,140 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 16:01:40,140 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 16:01:40,140 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 16:01:40,140 INFO [api_mp.py(__init__:22)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 16:01:40,140 INFO [api_mp.py(api_mp_article:49)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 16:01:45,736 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 16:01:45,736 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 16:01:45,752 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 16:01:45,752 INFO [api_mp.py(__init__:22)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 16:01:45,752 INFO [api_mp.py(api_mp_login:34)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 16:01:45,862 INFO [tool.py(common_token:13)] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjgxMDUsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.Uz1GN7LQUmF9mjkBMukSO1NNdHxs8_rh4_gfuCjlqYU,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjgxMDUsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.Uz1GN7LQUmF9mjkBMukSO1NNdHxs8_rh4_gfuCjlqYU'}
+2022-05-02 16:01:45,862 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 16:01:45,862 INFO [api_mp.py(api_mp_article:49)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjgxMDUsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.Uz1GN7LQUmF9mjkBMukSO1NNdHxs8_rh4_gfuCjlqYU'}
+2022-05-02 16:01:45,955 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 16:04:20,092 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 16:04:20,092 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 16:04:20,092 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 16:04:20,108 INFO [api_mp.py(__init__:22)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 16:04:20,108 INFO [api_mp.py(api_mp_article:49)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 16:04:28,793 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 16:04:28,793 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 16:04:28,793 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 16:04:28,793 INFO [api_mp.py(__init__:22)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 16:04:28,793 INFO [api_mp.py(api_mp_login:34)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 16:04:28,888 INFO [tool.py(common_token:13)] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjgyNjgsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.QJnQLNGeDPDBa6mJi7SR7q991CY40Bqbb5Q1nvLlBrQ,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjgyNjgsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.QJnQLNGeDPDBa6mJi7SR7q991CY40Bqbb5Q1nvLlBrQ'}
+2022-05-02 16:04:28,888 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 16:04:28,888 INFO [api_mp.py(api_mp_article:49)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjgyNjgsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.QJnQLNGeDPDBa6mJi7SR7q991CY40Bqbb5Q1nvLlBrQ'}
+2022-05-02 16:04:28,981 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 16:07:31,663 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 16:07:31,663 INFO [api_mp.py(__init__:22)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 16:07:31,663 INFO [api_mp.py(api_mp_login:34)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 16:07:48,645 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 16:07:48,645 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 16:07:48,645 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 16:07:48,645 INFO [api_mp.py(__init__:22)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 16:07:48,645 INFO [api_mp.py(api_mp_login:34)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 16:07:48,739 INFO [tool.py(common_token:13)] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjg0NjgsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.Whobc_ti0O7Ex7lfr-j55PjbJaO_ezYj-RxemYrT34s,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjg0NjgsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.Whobc_ti0O7Ex7lfr-j55PjbJaO_ezYj-RxemYrT34s'}
+2022-05-02 16:07:48,739 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 16:07:48,754 INFO [api_mp.py(api_mp_article:49)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjg0NjgsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.Whobc_ti0O7Ex7lfr-j55PjbJaO_ezYj-RxemYrT34s'}
+2022-05-02 16:07:48,832 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 16:07:55,980 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 16:07:55,980 INFO [api_mp.py(__init__:22)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 16:07:55,980 INFO [api_mp.py(api_mp_login:34)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 16:08:31,307 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 16:08:31,307 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 16:08:31,307 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 16:08:31,307 INFO [api_mp.py(__init__:22)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 16:08:31,307 INFO [api_mp.py(api_mp_login:34)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 16:08:31,386 INFO [tool.py(common_token:13)] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjg1MTAsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.ilyN9novLzAHYI22NqdpTiaJBWqsoiV_cgWnhC8RaRg,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjg1MTAsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.ilyN9novLzAHYI22NqdpTiaJBWqsoiV_cgWnhC8RaRg'}
+2022-05-02 16:08:31,386 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 16:08:31,401 INFO [api_mp.py(api_mp_article:49)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjg1MTAsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.ilyN9novLzAHYI22NqdpTiaJBWqsoiV_cgWnhC8RaRg'}
+2022-05-02 16:08:31,495 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 16:09:17,297 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 16:09:17,297 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 16:09:17,313 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 16:09:17,313 INFO [api_mp.py(__init__:22)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 16:09:17,313 INFO [api_mp.py(api_mp_login:34)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 16:09:17,376 INFO [tool.py(common_token:13)] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjg1NTYsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.GNpKWnUl_awgMOPPxCGzxpRdKWn7MNOH424UClrNnBU,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjg1NTYsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.GNpKWnUl_awgMOPPxCGzxpRdKWn7MNOH424UClrNnBU'}
+2022-05-02 16:09:17,376 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 16:09:17,391 INFO [api_mp.py(api_mp_article:49)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjg1NTYsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.GNpKWnUl_awgMOPPxCGzxpRdKWn7MNOH424UClrNnBU'}
+2022-05-02 16:09:17,469 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 16:12:52,015 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 16:12:52,015 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 16:12:52,015 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 16:12:52,015 INFO [api_mp.py(__init__:22)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 16:12:52,015 INFO [api_mp.py(api_mp_login:34)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 16:12:52,109 INFO [tool.py(common_token:13)] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjg3NzEsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.WbZHOg8Zg60C9fYPaN8qw-jhouSPxBg4ubY6TBXILL0,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjg3NzEsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.WbZHOg8Zg60C9fYPaN8qw-jhouSPxBg4ubY6TBXILL0'}
+2022-05-02 16:12:52,109 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 16:12:52,109 INFO [tool.py(common_assert:21)] - 正在判断201 == 201
+2022-05-02 16:12:52,109 INFO [tool.py(common_assert:24)] - 正在判断 OK == OK
+2022-05-02 16:12:52,124 INFO [api_mp.py(api_mp_article:49)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjg3NzEsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.WbZHOg8Zg60C9fYPaN8qw-jhouSPxBg4ubY6TBXILL0'}
+2022-05-02 16:12:52,203 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 16:12:52,203 INFO [tool.py(common_assert:21)] - 正在判断200 == 200
+2022-05-02 16:12:52,203 INFO [tool.py(common_assert:24)] - 正在判断 OK == OK
+2022-05-02 16:19:44,440 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 16:19:44,440 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 16:19:44,456 INFO [root] [api_mp.py (__init__:19] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 16:19:44,456 INFO [root] [api_mp.py (__init__:22] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 16:19:44,456 INFO [root] [api_mp.py (api_mp_login:34] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 16:19:44,535 INFO [root] [tool.py (common_token:13] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjkxODMsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.h0fAtMwv5dsbCJN_myGrHc1KOew5yNtG3Odif_z-Mac,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjkxODMsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.h0fAtMwv5dsbCJN_myGrHc1KOew5yNtG3Odif_z-Mac'}
+2022-05-02 16:19:44,535 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 16:19:44,535 INFO [root] [tool.py (common_assert:21] - 正在判断201 == 201
+2022-05-02 16:19:44,535 INFO [root] [tool.py (common_assert:24] - 正在判断 OK == OK
+2022-05-02 16:19:44,550 INFO [root] [api_mp.py (api_mp_article:49] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MjkxODMsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.h0fAtMwv5dsbCJN_myGrHc1KOew5yNtG3Odif_z-Mac'}
+2022-05-02 16:19:44,628 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 16:19:44,628 INFO [root] [tool.py (common_assert:21] - 正在判断200 == 200
+2022-05-02 16:19:44,628 INFO [root] [tool.py (common_assert:24] - 正在判断 OK == OK
+2022-05-02 16:23:27,910 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 16:23:27,925 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 16:23:27,956 INFO [root] [api_mp.py (__init__:19] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 16:23:27,956 INFO [root] [api_mp.py (__init__:22] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 16:23:27,972 INFO [root] [api_mp.py (api_mp_login:34] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 16:23:28,081 INFO [root] [tool.py (common_token:13] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjk0MDcsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.vmmKlLfK85JTqrpK5pb3g0MBc9lVv30-mscEhlqNFeo,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjk0MDcsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.vmmKlLfK85JTqrpK5pb3g0MBc9lVv30-mscEhlqNFeo'}
+2022-05-02 16:23:28,081 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 16:23:28,081 INFO [root] [tool.py (common_assert:21] - 正在判断201 == 201
+2022-05-02 16:23:28,081 INFO [root] [tool.py (common_assert:24] - 正在判断 OK == OK
+2022-05-02 16:23:28,097 INFO [root] [api_mp.py (api_mp_article:49] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjk0MDcsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.vmmKlLfK85JTqrpK5pb3g0MBc9lVv30-mscEhlqNFeo'}
+2022-05-02 16:23:28,191 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 16:23:28,191 INFO [root] [tool.py (common_assert:21] - 正在判断200 == 200
+2022-05-02 16:23:28,191 INFO [root] [tool.py (common_assert:24] - 正在判断 OK == OK
+2022-05-02 16:32:21,153 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 16:32:21,153 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 16:32:21,153 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 16:32:21,153 INFO [api_mp.py(__init__:22)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 16:32:21,153 INFO [api_mp.py(api_mp_login:34)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 16:32:21,279 INFO [tool.py(common_token:13)] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjk5NDAsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.mdtZelWLyjAKzCqGgNUbygn6klG_71NwZFUYRvGAWGo,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjk5NDAsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.mdtZelWLyjAKzCqGgNUbygn6klG_71NwZFUYRvGAWGo'}
+2022-05-02 16:32:21,279 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 16:32:21,279 INFO [tool.py(common_assert:21)] - 正在判断201 == 201
+2022-05-02 16:32:21,279 INFO [tool.py(common_assert:24)] - 正在判断 OK == OK
+2022-05-02 16:32:21,294 INFO [api_mp.py(api_mp_article:49)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mjk5NDAsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.mdtZelWLyjAKzCqGgNUbygn6klG_71NwZFUYRvGAWGo'}
+2022-05-02 16:32:21,372 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 16:32:21,372 INFO [tool.py(common_assert:21)] - 正在判断200 == 200
+2022-05-02 16:32:21,372 INFO [tool.py(common_assert:24)] - 正在判断 OK == OK
+2022-05-02 16:34:17,516 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 16:34:17,516 INFO [read_yaml.py(read_yaml:16)] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 16:34:17,531 INFO [api_mp.py(__init__:19)] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 16:34:17,531 INFO [api_mp.py(__init__:22)] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 16:34:17,531 INFO [api_mp.py(api_mp_login:34)] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 16:34:17,641 INFO [tool.py(common_token:13)] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MzAwNTcsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.kZfHfUukJQfNTP13O_tPZzQNpVobTtwI7FFPfqBlWTI,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MzAwNTcsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.kZfHfUukJQfNTP13O_tPZzQNpVobTtwI7FFPfqBlWTI'}
+2022-05-02 16:34:17,656 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 16:34:17,656 INFO [tool.py(common_assert:21)] - 正在判断201 == 201
+2022-05-02 16:34:17,656 INFO [tool.py(common_assert:24)] - 正在判断 OK == OK
+2022-05-02 16:34:17,656 INFO [api_mp.py(api_mp_article:49)] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MzAwNTcsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.kZfHfUukJQfNTP13O_tPZzQNpVobTtwI7FFPfqBlWTI'}
+2022-05-02 16:34:17,766 INFO [tool.py(common_assert:19)] - 正在调用公共断言方法
+2022-05-02 16:34:17,766 INFO [tool.py(common_assert:21)] - 正在判断200 == 200
+2022-05-02 16:34:17,766 INFO [tool.py(common_assert:24)] - 正在判断 OK == OK
+2022-05-02 17:33:07,090 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810'), ('13911111111', '246810'), ('13911111111', '246810')]
+2022-05-02 17:33:31,580 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810'), ('13911111111', '246810'), ('13911111111', '246810')]
+2022-05-02 17:33:43,579 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810'), ('13911111111', '246810'), ('13911111111', '246810')]
+2022-05-02 17:33:59,164 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810'), ('13911111111', '246810'), ('13911111111', '246810')]
+2022-05-02 18:01:58,695 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 18:01:58,695 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 18:01:58,757 INFO [root] [api_mp.py (__init__:19] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 18:01:58,757 INFO [root] [api_mp.py (__init__:23] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles?draft=false
+2022-05-02 18:01:58,773 INFO [root] [api_mp.py (api_mp_login:35] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 18:01:58,867 INFO [root] [tool.py (common_token:13] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MzUzMTgsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.iI9ZmE9WqTOnad9P5ublMAZknVvce8ikZr_jtQPuuGk,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MzUzMTgsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.iI9ZmE9WqTOnad9P5ublMAZknVvce8ikZr_jtQPuuGk'}
+2022-05-02 18:01:58,867 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 18:01:58,867 INFO [root] [tool.py (common_assert:21] - 正在判断201 == 201
+2022-05-02 18:01:58,867 INFO [root] [tool.py (common_assert:24] - 正在判断 OK == OK
+2022-05-02 18:01:58,882 INFO [root] [api_mp.py (api_mp_article:50] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MzUzMTgsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.iI9ZmE9WqTOnad9P5ublMAZknVvce8ikZr_jtQPuuGk'}
+2022-05-02 18:01:58,992 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 18:01:58,992 INFO [root] [tool.py (common_assert:21] - 正在判断200 == 200
+2022-05-02 18:01:58,992 INFO [root] [tool.py (common_assert:24] - 正在判断 OK == OK
+2022-05-02 18:04:23,931 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 18:04:23,931 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 18:04:23,946 INFO [root] [api_mp.py (__init__:19] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 18:04:23,946 INFO [root] [api_mp.py (__init__:23] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles?draft=false
+2022-05-02 18:04:23,946 INFO [root] [api_mp.py (api_mp_login:35] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 18:04:24,009 INFO [root] [tool.py (common_token:13] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MzU0NjMsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.ePLEYwwgEtZNp4Q5D6fjhdVoGN8FQi6_bYE9fSVRm4s,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MzU0NjMsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.ePLEYwwgEtZNp4Q5D6fjhdVoGN8FQi6_bYE9fSVRm4s'}
+2022-05-02 18:04:24,009 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 18:04:24,009 INFO [root] [tool.py (common_assert:21] - 正在判断201 == 201
+2022-05-02 18:04:24,025 INFO [root] [tool.py (common_assert:24] - 正在判断 OK == OK
+2022-05-02 18:04:24,025 INFO [root] [api_mp.py (api_mp_article:50] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MzU0NjMsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.ePLEYwwgEtZNp4Q5D6fjhdVoGN8FQi6_bYE9fSVRm4s'}
+2022-05-02 18:07:51,005 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 18:07:51,005 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 18:07:51,005 INFO [root] [api_mp.py (__init__:19] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 18:07:51,005 INFO [root] [api_mp.py (__init__:23] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles?draft=false
+2022-05-02 18:07:51,005 INFO [root] [api_mp.py (api_mp_login:35] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 18:07:51,224 INFO [root] [tool.py (common_token:13] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MzU2NzAsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.BldABUhdMLFlty4fSbaTrfbS0Pqd30TW2dwTM6DMPcs,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MzU2NzAsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.BldABUhdMLFlty4fSbaTrfbS0Pqd30TW2dwTM6DMPcs'}
+2022-05-02 18:07:51,224 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 18:07:51,224 INFO [root] [tool.py (common_assert:21] - 正在判断201 == 201
+2022-05-02 18:07:51,224 INFO [root] [tool.py (common_assert:24] - 正在判断 OK == OK
+2022-05-02 18:07:51,240 INFO [root] [api_mp.py (api_mp_article:50] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MzU2NzAsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.BldABUhdMLFlty4fSbaTrfbS0Pqd30TW2dwTM6DMPcs'}
+2022-05-02 18:07:51,318 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 18:07:51,318 INFO [root] [tool.py (common_assert:21] - 正在判断200 == 201
+2022-05-02 18:07:51,318 ERROR [root] [test01_mp.py (test02_mp_article:50] - 
+2022-05-02 18:08:29,118 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 18:08:29,118 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 18:08:29,134 INFO [root] [api_mp.py (__init__:19] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 18:08:29,134 INFO [root] [api_mp.py (__init__:23] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles?draft=false
+2022-05-02 18:08:29,134 INFO [root] [api_mp.py (api_mp_article:50] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 18:08:52,853 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 18:08:52,853 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 18:08:52,869 INFO [root] [api_mp.py (__init__:19] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 18:08:52,869 INFO [root] [api_mp.py (__init__:23] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles?draft=false
+2022-05-02 18:08:52,869 INFO [root] [api_mp.py (api_mp_login:35] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 18:08:52,931 INFO [root] [tool.py (common_token:13] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MzU3MzIsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.cgZxeDpz-eMedd-0uO74bR_ja7jPM22CT15MXwT6E80,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MzU3MzIsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.cgZxeDpz-eMedd-0uO74bR_ja7jPM22CT15MXwT6E80'}
+2022-05-02 18:08:52,931 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 18:08:52,931 INFO [root] [tool.py (common_assert:21] - 正在判断201 == 201
+2022-05-02 18:08:52,931 INFO [root] [tool.py (common_assert:24] - 正在判断 OK == OK
+2022-05-02 18:08:52,947 INFO [root] [api_mp.py (api_mp_article:50] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MzU3MzIsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.cgZxeDpz-eMedd-0uO74bR_ja7jPM22CT15MXwT6E80'}
+2022-05-02 18:08:53,009 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 18:08:53,009 INFO [root] [tool.py (common_assert:21] - 正在判断200 == 201
+2022-05-02 18:08:53,009 ERROR [root] [test01_mp.py (test02_mp_article:51] - 
+2022-05-02 18:09:21,672 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 18:09:21,672 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 18:09:21,688 INFO [root] [api_mp.py (__init__:19] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 18:09:21,688 INFO [root] [api_mp.py (__init__:23] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles?draft=false
+2022-05-02 18:09:21,688 INFO [root] [api_mp.py (api_mp_login:35] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 18:09:21,781 INFO [root] [tool.py (common_token:13] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MzU3NjEsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.fRG6t80ZVvPl22Fftp-9p50LleCl3nKT_CQMVUNKYvw,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MzU3NjEsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.fRG6t80ZVvPl22Fftp-9p50LleCl3nKT_CQMVUNKYvw'}
+2022-05-02 18:09:21,781 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 18:09:21,781 INFO [root] [tool.py (common_assert:21] - 正在判断201 == 201
+2022-05-02 18:09:21,781 INFO [root] [tool.py (common_assert:24] - 正在判断 OK == OK
+2022-05-02 18:09:21,797 INFO [root] [api_mp.py (api_mp_article:50] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MzU3NjEsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.fRG6t80ZVvPl22Fftp-9p50LleCl3nKT_CQMVUNKYvw'}
+2022-05-02 18:09:21,876 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 18:09:21,876 INFO [root] [tool.py (common_assert:21] - 正在判断201 == 201
+2022-05-02 18:09:21,891 INFO [root] [tool.py (common_assert:24] - 正在判断 OK == OK
+2022-05-02 18:12:24,786 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 18:12:24,786 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_001', '这是一个接口测试', '7', '数据库')]
+2022-05-02 18:12:24,786 INFO [root] [api_mp.py (__init__:19] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 18:12:24,786 INFO [root] [api_mp.py (__init__:23] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 18:12:24,786 INFO [root] [api_mp.py (api_mp_login:35] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 18:12:24,880 INFO [root] [tool.py (common_token:13] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MzU5NDQsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.u2f3Jw-kS-pguhb8_VTHDMfm0SoQh9v1pVnVy2MM850,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MzU5NDQsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.u2f3Jw-kS-pguhb8_VTHDMfm0SoQh9v1pVnVy2MM850'}
+2022-05-02 18:12:24,880 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 18:12:24,880 INFO [root] [tool.py (common_assert:21] - 正在判断201 == 201
+2022-05-02 18:12:24,880 INFO [root] [tool.py (common_assert:24] - 正在判断 OK == OK
+2022-05-02 18:12:24,926 INFO [root] [api_mp.py (api_mp_article:50] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_001', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MzU5NDQsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.u2f3Jw-kS-pguhb8_VTHDMfm0SoQh9v1pVnVy2MM850'}
+2022-05-02 18:12:25,005 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 18:12:25,005 INFO [root] [tool.py (common_assert:21] - 正在判断201 == 201
+2022-05-02 18:12:25,005 INFO [root] [tool.py (common_assert:24] - 正在判断 OK == OK
+2022-05-02 18:13:29,667 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 18:13:29,667 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_002', '这是一个接口测试', '7', '数据库')]
+2022-05-02 18:13:29,667 INFO [root] [api_mp.py (__init__:19] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 18:13:29,667 INFO [root] [api_mp.py (__init__:23] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 18:13:29,667 INFO [root] [api_mp.py (api_mp_login:35] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 18:13:29,745 INFO [root] [tool.py (common_token:13] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MzYwMDksInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.TbE_Y0EbtJh7aujAuyA7olVKcztcBHdmEfuWg47gTIk,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MzYwMDksInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.TbE_Y0EbtJh7aujAuyA7olVKcztcBHdmEfuWg47gTIk'}
+2022-05-02 18:13:29,745 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 18:13:29,745 INFO [root] [tool.py (common_assert:21] - 正在判断201 == 201
+2022-05-02 18:13:29,745 INFO [root] [tool.py (common_assert:24] - 正在判断 OK == OK
+2022-05-02 18:13:29,761 INFO [root] [api_mp.py (api_mp_article:50] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_002', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5MzYwMDksInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.TbE_Y0EbtJh7aujAuyA7olVKcztcBHdmEfuWg47gTIk'}
+2022-05-02 18:13:29,824 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 18:13:29,824 INFO [root] [tool.py (common_assert:21] - 正在判断201 == 201
+2022-05-02 18:13:29,824 INFO [root] [tool.py (common_assert:24] - 正在判断 OK == OK
+2022-05-02 18:42:30,249 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_002', '这是一个接口测试', '7', '数据库')]
+2022-05-02 18:42:30,311 INFO [root] [api_mp.py (__init__:19] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 18:42:30,311 INFO [root] [api_mp.py (__init__:23] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 18:44:04,657 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_002', '这是一个接口测试', '7', '数据库')]
+2022-05-02 18:44:04,657 INFO [root] [api_mp.py (__init__:19] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 18:44:04,657 INFO [root] [api_mp.py (__init__:23] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 18:44:04,657 INFO [root] [api_mp.py (api_mp_login:35] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 18:44:04,798 INFO [root] [tool.py (common_token:13] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mzc4NDQsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.vggJq7GOeyBdKITFu8sFFP41Gwf8xL8fsNvWke_8xic,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mzc4NDQsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.vggJq7GOeyBdKITFu8sFFP41Gwf8xL8fsNvWke_8xic'}
+2022-05-02 18:44:04,798 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 18:44:04,798 INFO [root] [tool.py (common_assert:21] - 正在判断201 == 201
+2022-05-02 18:44:04,798 INFO [root] [tool.py (common_assert:24] - 正在判断 OK == OK
+2022-05-02 18:44:26,600 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_002', '这是一个接口测试', '7', '数据库')]
+2022-05-02 18:44:26,616 INFO [root] [api_mp.py (__init__:19] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 18:44:26,616 INFO [root] [api_mp.py (__init__:23] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 18:45:06,392 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_002', '这是一个接口测试', '7', '数据库')]
+2022-05-02 18:45:06,407 INFO [root] [api_mp.py (__init__:19] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 18:45:06,407 INFO [root] [api_mp.py (__init__:23] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 18:45:06,407 INFO [root] [api_mp.py (api_mp_login:35] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 18:45:06,517 INFO [root] [tool.py (common_token:13] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mzc5MDUsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.b5auYwEpZuBnz5N5J_p6WiJK_MEeaiU5Ng-mQ4bA2f4,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mzc5MDUsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.b5auYwEpZuBnz5N5J_p6WiJK_MEeaiU5Ng-mQ4bA2f4'}
+2022-05-02 18:45:06,517 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 18:45:06,517 INFO [root] [tool.py (common_assert:21] - 正在判断201 == 201
+2022-05-02 18:45:06,517 INFO [root] [tool.py (common_assert:24] - 正在判断 OK == OK
+2022-05-02 18:45:42,976 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 18:45:42,976 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_002', '这是一个接口测试', '7', '数据库')]
+2022-05-02 18:46:03,269 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 18:46:03,269 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_002', '这是一个接口测试', '7', '数据库')]
+2022-05-02 18:46:03,269 INFO [root] [api_mp.py (__init__:19] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 18:46:03,269 INFO [root] [api_mp.py (__init__:23] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 18:46:03,269 INFO [root] [api_mp.py (api_mp_login:35] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 18:46:03,394 INFO [root] [tool.py (common_token:13] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mzc5NjIsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.4WAhQOpLWp7f7tEMZ9WIqdjd92Z1vHUoB66JZnCidgI,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5Mzc5NjIsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.4WAhQOpLWp7f7tEMZ9WIqdjd92Z1vHUoB66JZnCidgI'}
+2022-05-02 18:46:03,394 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 18:46:03,394 INFO [root] [tool.py (common_assert:21] - 正在判断201 == 201
+2022-05-02 18:46:03,394 INFO [root] [tool.py (common_assert:24] - 正在判断 OK == OK
+2022-05-02 20:55:50,296 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810', 'dengluchenggong')]
+2022-05-02 20:55:50,311 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_002', '这是一个接口测试', '7', '数据库')]
+2022-05-02 20:57:22,527 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 20:57:22,527 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_002', '这是一个接口测试', '7', '数据库')]
+2022-05-02 20:57:22,558 INFO [root] [api_mp.py (__init__:19] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 20:57:22,558 INFO [root] [api_mp.py (__init__:23] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 20:57:22,590 INFO [root] [api_mp.py (api_mp_login:35] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 20:57:22,714 INFO [root] [tool.py (common_token:13] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5NDU4NDIsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.9FFP7_GvKkeKXjaQe5QoVDW0h2WDGCGYD2_rVXRgMXo,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5NDU4NDIsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.9FFP7_GvKkeKXjaQe5QoVDW0h2WDGCGYD2_rVXRgMXo'}
+2022-05-02 20:57:22,730 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 20:57:22,730 INFO [root] [tool.py (common_assert:21] - 正在判断201 == 201
+2022-05-02 20:57:22,730 INFO [root] [tool.py (common_assert:24] - 正在判断 OK == OK
+2022-05-02 20:59:12,437 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810', '1111')]
+2022-05-02 20:59:12,437 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_002', '这是一个接口测试', '7', '数据库')]
+2022-05-02 20:59:12,452 INFO [root] [api_mp.py (__init__:19] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 20:59:12,452 INFO [root] [api_mp.py (__init__:23] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 20:59:12,452 INFO [root] [api_mp.py (api_mp_login:35] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 20:59:12,530 INFO [root] [tool.py (common_token:13] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5NDU5NTEsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.l9uOUXP_JmdacgZt6C5MCUbGGRkndhUi2dHRc7h9Rig,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5NDU5NTEsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.l9uOUXP_JmdacgZt6C5MCUbGGRkndhUi2dHRc7h9Rig'}
+2022-05-02 20:59:12,530 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 20:59:12,530 INFO [root] [tool.py (common_assert:21] - 正在判断201 == 201
+2022-05-02 20:59:12,530 INFO [root] [tool.py (common_assert:24] - 正在判断 OK == OK
+2022-05-02 23:24:28,486 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 23:24:28,518 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_002', '这是一个接口测试', '7', '数据库')]
+2022-05-02 23:24:28,564 INFO [root] [api_mp.py (__init__:19] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 23:24:28,564 INFO [root] [api_mp.py (__init__:23] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 23:24:28,580 INFO [root] [api_mp.py (api_mp_login:35] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 23:24:28,674 INFO [root] [tool.py (common_token:13] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5NTQ2NjcsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.CgPZGvG4t6sxG9uWQzCeOWayeyhAagErz1iN7hlN99Q,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5NTQ2NjcsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.CgPZGvG4t6sxG9uWQzCeOWayeyhAagErz1iN7hlN99Q'}
+2022-05-02 23:24:28,674 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 23:24:28,674 INFO [root] [tool.py (common_assert:21] - 正在判断201 == 201
+2022-05-02 23:24:28,674 INFO [root] [tool.py (common_assert:24] - 正在判断 OK == OK
+2022-05-02 23:24:28,674 INFO [root] [api_mp.py (api_mp_article:50] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_002', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5NTQ2NjcsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.CgPZGvG4t6sxG9uWQzCeOWayeyhAagErz1iN7hlN99Q'}
+2022-05-02 23:24:28,752 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 23:24:28,752 INFO [root] [tool.py (common_assert:21] - 正在判断201 == 201
+2022-05-02 23:24:28,752 INFO [root] [tool.py (common_assert:24] - 正在判断 OK == OK
+2022-05-02 23:26:27,504 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_login.yaml,读取到的数据为:[('13911111111', '246810')]
+2022-05-02 23:26:27,504 INFO [root] [read_yaml.py (read_yaml:16] - 正在调用读取yaml文件方法,读取的文件为:M:\PycharmProjects\apiAutoTestHmtt\data\mp_article.yaml,读取到的数据为:[('test_api_002', '这是一个接口测试', '7', '数据库')]
+2022-05-02 23:26:27,519 INFO [root] [api_mp.py (__init__:19] - 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+2022-05-02 23:26:27,519 INFO [root] [api_mp.py (__init__:23] - 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+2022-05-02 23:26:27,519 INFO [root] [api_mp.py (api_mp_login:35] - 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+2022-05-02 23:26:27,597 INFO [root] [tool.py (common_token:13] - 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5NTQ3ODYsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.9SL2_kobVSsDpwybvGYqO3auW-Ut2xYA1zpqQU2TVIk,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5NTQ3ODYsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.9SL2_kobVSsDpwybvGYqO3auW-Ut2xYA1zpqQU2TVIk'}
+2022-05-02 23:26:27,597 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 23:26:27,597 INFO [root] [tool.py (common_assert:21] - 正在判断201 == 201
+2022-05-02 23:26:27,597 INFO [root] [tool.py (common_assert:24] - 正在判断 OK == OK
+2022-05-02 23:26:27,597 INFO [root] [api_mp.py (api_mp_article:50] - 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_002', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5NTQ3ODYsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.9SL2_kobVSsDpwybvGYqO3auW-Ut2xYA1zpqQU2TVIk'}
+2022-05-02 23:26:27,676 INFO [root] [tool.py (common_assert:19] - 正在调用公共断言方法
+2022-05-02 23:26:27,676 INFO [root] [tool.py (common_assert:21] - 正在判断201 == 201
+2022-05-02 23:26:27,676 INFO [root] [tool.py (common_assert:24] - 正在判断 OK == OK

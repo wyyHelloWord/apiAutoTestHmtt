@@ -1,0 +1,5 @@
+mp_article001:
+  title: test_api_002
+  content: 这是一个接口测试
+  channel_id: '7'
+  channel: 数据库

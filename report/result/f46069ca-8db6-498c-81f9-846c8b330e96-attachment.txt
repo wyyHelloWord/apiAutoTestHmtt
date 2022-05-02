@@ -1,0 +1,7 @@
+[32mINFO    [0m root:api_mp.py:19 正在初始化自媒体登录url:http://api-toutiao-web.itheima.net/mp/v1_0/authorizations
+[32mINFO    [0m root:api_mp.py:23 正在初始化自媒体发布文章url:http://api-toutiao-web.itheima.net/mp/v1_0/articles
+[32mINFO    [0m root:api_mp.py:35 正在调用自媒体登录接口,请求数据为:{'mobile': '13911111111', 'code': '246810'},请求头为:{'Content-Type': 'application/json'}
+[32mINFO    [0m root:tool.py:13 正在提取token,提取的token为:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5NTQ3ODYsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.9SL2_kobVSsDpwybvGYqO3auW-Ut2xYA1zpqQU2TVIk,添加token后的headers为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5NTQ3ODYsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.9SL2_kobVSsDpwybvGYqO3auW-Ut2xYA1zpqQU2TVIk'}
+[32mINFO    [0m root:tool.py:19 正在调用公共断言方法
+[32mINFO    [0m root:tool.py:21 正在判断201 == 201
+[32mINFO    [0m root:tool.py:24 正在判断 OK == OK

@@ -1,0 +1,4 @@
+[32mINFO    [0m root:api_mp.py:50 正在调用自媒体发布文章接口,请求数据为:{'title': 'test_api_002', 'content': '这是一个接口测试', 'channel_id': '7', 'cover': {'type': 0, 'images': []}},请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2ODI5NTQ3ODYsInVzZXJfaWQiOjEsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.9SL2_kobVSsDpwybvGYqO3auW-Ut2xYA1zpqQU2TVIk'}
+[32mINFO    [0m root:tool.py:19 正在调用公共断言方法
+[32mINFO    [0m root:tool.py:21 正在判断201 == 201
+[32mINFO    [0m root:tool.py:24 正在判断 OK == OK
